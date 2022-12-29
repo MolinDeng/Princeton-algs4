@@ -1,7 +1,7 @@
 # Princeton-algs4
 This repository contains my solution for the coursera course Algorithm I &amp; II
 
-## Tips
+## All AC tips
 
 ### [Hello, World](https://coursera.cs.princeton.edu/algs4/assignments/hello/specification.php)
 
@@ -32,3 +32,13 @@ while (!StdIn.isEmpty()) {
         queue.enqueue(s);
 }
 ```
+
+### [Collinear Points](https://coursera.cs.princeton.edu/algs4/assignments/collinear/specification.php)
+
+* "Return a comparator" reference: <https://stackoverflow.com/questions/6478515/return-type-from-a-comparator>
+* How to remove duplicates
+> When sorting `points` array in slope order, make sure that it also remains natural order. Then, by only counting segments starts from the smallest point, we can remove duplicates.
+
+lets say `p1, p2, p3, p4, p5` forms a segments in natural order. `p1` is the smallest, `p5` is the largest (natural order)
+* When `p1` is slope anchor, `min` is `p1`, `max` is `p5`, add this segment.
+* When `p2` is slope anchor, `min` is `p1` not `p2`, `max` is `p5`, discard this duplicates.
