@@ -48,7 +48,7 @@ lets say `p1, p2, p3, p4, p5` forms a segments in natural order. `p1` is the sma
 * When `p1` is slope anchor, `min` is `p1`, `max` is `p5`, add this segment.
 * When `p2` is slope anchor, `min` is `p1` not `p2`, `max` is `p5`, discard this duplicates.
 
-### <img src="misc/logo.png" width="50"/>[8-puzzle](https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php)
+### [8-puzzle](https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php)<img src="misc/logo.png" width="50"/>
 
 <!-- ### ![](misc/logo.png) [8-puzzle](https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php) -->
 
