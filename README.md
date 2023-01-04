@@ -50,11 +50,16 @@ lets say `p1, p2, p3, p4, p5` forms a segments in natural order. `p1` is the sma
 
 ### [8-puzzle](https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php)<img src="misc/logo.png" width="50"/>
 
-<!-- ### ![](misc/logo.png) [8-puzzle](https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php) -->
-
 * `equals` method: Private data is accessible by any instance of that class,
         even if one instance of class A is accessing the private members of another instance of A.
         It's important to remember that that access modifiers (private, protected, public)
         are controlling class access, not instance access.
 * Caching the Hamming and Manhattan priorities: not only caching in `Board` class, but also caching in `Node` inner class.
 * [A* search algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
+
+### [Kd-Trees](https://coursera.cs.princeton.edu/algs4/assignments/kdtree/specification.php)<img src="misc/logo-kd.png" width="50"/>
+
+* Key pruning strategy: **When performing nearest neighbor search, we organize the recursive method so that when there are two possible subtrees to go down, we always choose the subtree that is on the same side of the splitting line as the query point as the first subtree to explore.**
+  * It is a crucial performance optimization because the points encountered while exploring the first subtree may enable pruning of the second subtree. For typical inputs, choosing the direction that goes toward the query point makes it more likely that we will encounter points close to the query point.
+
+* Use a structure (inner class) or member variables to save minimum distance to reduce the # of calls of `distanceTo`.
