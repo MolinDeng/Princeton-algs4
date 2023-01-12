@@ -2,7 +2,7 @@
 
 This repository contains my solution for the coursera course Algorithm I &amp; II
 
-## Full AC tips
+## Full AC tips with all bonus points
 
 ### [Hello, World](https://coursera.cs.princeton.edu/algs4/assignments/hello/specification.php)
 
@@ -63,3 +63,11 @@ lets say `p1, p2, p3, p4, p5` forms a segments in natural order. `p1` is the sma
   * It is a crucial performance optimization because the points encountered while exploring the first subtree may enable pruning of the second subtree. For typical inputs, choosing the direction that goes toward the query point makes it more likely that we will encounter points close to the query point.
 
 * Use a structure (inner class) or member variables to save minimum distance to reduce the # of calls of `distanceTo`.
+
+### [WordNet](https://coursera.cs.princeton.edu/algs4/assignments/wordnet/specification.php)
+* Effeciency bonus: instead of using lockstep BFS with two vertices, I simply run two BFS on two vertices seperately to calculate distance array.
+  * use `-1` if unvisited to save visited array
+  * during second BFS, if vertex `v` is visited, calculate `distA[v] + distB[v]` to maintain minimum length.
+
+* check multi-roots: more than one vertices' outdegree is 0
+* check DAG: use DFS to check cycle.
