@@ -71,3 +71,23 @@ lets say `p1, p2, p3, p4, p5` forms a segments in natural order. `p1` is the sma
 
 * check multi-roots: more than one vertices' outdegree is 0
 * check DAG: use DFS to check cycle.
+
+### [Seam Carving](https://coursera.cs.princeton.edu/algs4/assignments/seam/specification.php)
+* Do NOT create actual Edge-Weighted Graph or compute topological order explicitly.
+* Another angel of topological order: **Kahn's algorithm** basically looks for the nodes that do not have any incoming edges, or have indegree = 0, and then removes it's outgoing edges, making it's outdegree also equal to 0. Here's the algorithm step by step:
+
+  1. Find a vertex that has indegree = 0 (no incoming edges)
+  2. Remove all the edges from that vertex that go outward (make it's outdegree = 0, remove outgoing edges)
+  3. Add that vertex to the array representing topological sorting of the graph
+  4. Repeat till there are no more vertices left.
+
+  So, given the graph below, the topological order can be *from Left to Right, from Top to bottom*
+  <img src="misc/QQ20230119-214024@2x.jpg" width="200"/>
+  
+* Save a global `energy[][]` variable, compute each node at the first time and when update needed.
+* Pass `Color` type to energy function, avoid redundant calls to the `get()` method in Picture
+* The order in which you traverse 2D array can make a big difference
+  * When using row-major order, 2D array should better be HxW (find vertical seam)
+  * When using col-major order, 2D array should better be WxH (find horizontal seam)
+* Creating Color objects can be a bottleneck. Each call to the get() method in Picture creates a new Color object. You can avoid this overhead by using the getRGB() method in Picture, which returns the color, encoded as a 32-bit int. The companion setRGB() method sets the color of a given pixel using a 32-bit int to encode the color.
+

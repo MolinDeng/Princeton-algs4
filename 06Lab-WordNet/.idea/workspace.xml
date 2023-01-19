@@ -4,115 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeInsightSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/lift.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/externalDependencies.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/file.template.settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/includes/File Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/AnnotationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/Enum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/findbugs-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Algorithms__Part_I.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Algorithms__Part_I.xml.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/algs4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.lift/algs4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.lift/checkstyle-coursera.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.lift/checkstyle-lift.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.lift/checkstyle-suppressions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.lift/spotbugs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms, Part II.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Outcast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WordNet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digraph-ambiguous-ancestor.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digraph-wordnet.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digraph0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digraph1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digraph2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digraph25.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digraph3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digraph4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digraph5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digraph6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digraph9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms100-subgraph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms1000-subgraph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms10000-subgraph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms100K.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms11AmbiguousAncestor.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms11ManyPathsOneAncestor.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms15Path.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms15Tree.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms200K.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms300K.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms3InvalidCycle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms3InvalidTwoRoots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms500-subgraph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms5000-subgraph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms50000-subgraph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms6InvalidCycle+Path.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms6InvalidCycle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms6InvalidTwoRoots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms6TwoAncestors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms8ManyAncestors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms8ModTree.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernyms8WrongBFS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hypernymsTwoCommonAncestors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast10a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast12a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast29.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast5a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast8a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast8b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast8c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outcast9a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/synsets.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/synsets100-subgraph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/synsets1000-subgraph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/synsets10000-subgraph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/synsets11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/synsets15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/synsets3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/synsets500-subgraph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/synsets5000-subgraph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/synsets50000-subgraph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/synsets6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/synsets8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../slides part 2/00Intro.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../slides part 2/4.1UndirectedGraphs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../slides part 2/4.2DirectedGraphs.pdf" afterDir="false" />
-    </list>
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,19 +84,19 @@
     <option name="showModules" value="false" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/morning/Downloads/Princeton-algs4/06Lab-WordNet",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/morning/Downloads/Princeton-algs4/06Lab-WordNet&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -213,6 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673420598895</updated>
       <workItem from="1673420600033" duration="22936000" />
+      <workItem from="1674026042100" duration="26000" />
     </task>
     <servers />
   </component>
