@@ -91,3 +91,6 @@ lets say `p1, p2, p3, p4, p5` forms a segments in natural order. `p1` is the sma
   * When using col-major order, 2D array should better be WxH (find horizontal seam)
 * Creating Color objects can be a bottleneck. Each call to the get() method in Picture creates a new Color object. You can avoid this overhead by using the getRGB() method in Picture, which returns the color, encoded as a 32-bit int. The companion setRGB() method sets the color of a given pixel using a 32-bit int to encode the color.
 * Other optimizing method <https://www.coursera.org/learn/algorithms-part2/discussions/forums/uA826bPrEeaElQ6tBsFbjg/threads/rUrNgruSEeia7Q78GYFOcA>
+
+### [Baseball Elimination](https://coursera.cs.princeton.edu/algs4/assignments/baseball/specification.php)
+* Establish proper mapping from team id to graph id.
