@@ -105,3 +105,11 @@ if (sb.length() >= 3 && next.isTernimal) {
     set.add(sb.toString());
     x.isTernimal = false; // but you can do this when Leetcoding
 }
+```
+
+### [Burrows Wheeler](https://coursera.cs.princeton.edu/algs4/assignments/burrows/specification.php)
+
+* Create `CircularSuffix` inner class to represent a suffix string, which uses a reference pointing to the only one common input string outside the class.
+* Use LSD radix sort to achive better performance.
+* Key-indexed counting algorithm is ***extremely*** helpful when implementing `inverseTransform` method.
+  * The way we calculate `next` array is the same with the way we calculate `aux` array in the algorithm.
